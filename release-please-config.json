@@ -1,6 +1,5 @@
 {
   "bump-minor-pre-major": true,
-  "bootstrap-sha": "12f54078a208df6e3761f4a43b6ba4632aead0e0",
   "packages": {
     "editor-extensions/vscode": {
       "release-type": "node"
