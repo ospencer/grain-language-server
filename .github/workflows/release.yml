@@ -2,7 +2,7 @@ name: Release & publish to marketplaces
 on:
   push:
     branches:
-      - master
+      - setup-rp
 
 jobs:
   release-please:
@@ -16,6 +16,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           command: manifest
+          default-branch: setup-rp
   
   publish:
     needs: release-please
