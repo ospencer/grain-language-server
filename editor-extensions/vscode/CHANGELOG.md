@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to the `vscode-grain` extension will be documented in this file.
 
+## [0.11.0](https://www.github.com/ospencer/grain-language-server/compare/vscode-grain-v0.10.3...vscode-grain-v0.11.0) (2021-05-10)
+
+
+### Features
+
+* add test file ([c780533](https://www.github.com/ospencer/grain-language-server/commit/c7805333892e33971a5884a94ca93c39c6b9d489))
+
 ## v0.10.3
 - Fixes syntax highlighting for rational literals.
 
